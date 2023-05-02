@@ -10,7 +10,7 @@ Save the chat session as a text file
 Clear the conversation at any time
 
 ## Prerequisites
-An API key from OpenAI. You can get one by signing up at OpenAI's website.
+An API key from OpenAI. You can get one by signing up at [OpenAI's website](https://openai.com/). Make sure that you are fimilar with OpenAI's terms of service! You are responsible for honoring the terms of service. 
 
 ## Setup
 1. Download each of the four files (index.html, script.js, styles.css, instructions.html) and put them in the same folder.
