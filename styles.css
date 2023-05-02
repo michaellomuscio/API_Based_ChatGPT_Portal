@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+font-family: Arial, sans-serif;
+  color: #000;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.system-message-container,
+.chat-container,
+.input-form {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.system-message {
+  width: 100%;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  border: 1px solid #bb2d2f;
+  border-radius: 3px;
+}
+
+.send-system-message-btn,
+.submit-btn,
+.save-session-btn,
+.clear-conversation-btn,
+.upload-background-btn,
+.background-file {
+  background-color: #bb2d2f;
+  border: none;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  padding: 8px 16px;
+  margin: 5px 2px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.send-system-message-btn:hover,
+.submit-btn:hover,
+.save-session-btn:hover,
+.clear-conversation-btn:hover {
+  background-color: #bb2d2f;
+}
+
+.output {
+  border: 1px solid #bb2d2f;
+  border-radius: 3px;
+  padding: 15px;
+  min-height: 200px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  margin-bottom: 10px;
+}
+
+.input {
+  width: 100%;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  border: 1px solid #bb2d2f;
+  border-radius: 3px;
+  resize: none;
+}
+
+.assistant-message,
+.user-message {
+  margin-bottom: 10px;
+}
+
+.assistant-message b,
+.user-message b {
+  font-weight: bold;
+}

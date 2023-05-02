@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ChatGPT Website</h1>
+        <a href="instructions.html">Instructions</a>
+        <div class="system-message-container">
+            <label for="system-message">System message:</label>
+            <input type="text" id="system-message" class="system-message" value="You are a helpful assistant." />
+            <button id="send-system-message" class="send-system-message-btn">Send System Message</button>
+        </div>
+
+        <div class="chat-container">
+            <div id="output" class="output"></div>
+            <form id="input-form" class="input-form">
+                <textarea id="input" class="input" rows="4" placeholder="Type your message here..."></textarea>
+                <button type="submit" class="submit-btn">Send</button>
+            </form>
+        </div>
+        <button id="save-session" class="save-session-btn">Save Session</button>
+        <button id="clear-conversation" class="save-session-btn">Clear Conversation</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
