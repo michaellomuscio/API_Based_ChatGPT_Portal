@@ -16,7 +16,7 @@ An API key from OpenAI. You can get one by signing up at OpenAI's website.
 1. Download each of the four files (index.html, script.js, styles.css, instructions.html) and put them in the same folder.
 2. Open script.js and replace `<API Key>` in line 1 with your OpenAI API Key. Remember to save the file.
 3. Open index.html and the web app should work.
-4. **Remember, you should NEVER share your API Key. Be careful who you share your site and/or code with if your API is visible. Don't make your site public or share it if your API Key is visible.** 
+4. **Remember, you should NEVER share your API Key. Be careful who you share your site and/or code with if your API Key is visible. Do not make your site public or share it if your API Key is visible.** 
 
 ## Usage
 1. The chat interface contains an input field where users can type their messages.
