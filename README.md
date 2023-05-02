@@ -3,6 +3,8 @@ This repository contains the code for a simple web application that allows group
 
 The ChatGPT Web Application is a user-friendly interface where users can have a conversation with ChatGPT, an AI developed by OpenAI. This AI assistant is designed to provide helpful and relevant responses to user input.
 
+![Alt](https://github.com/michaellomuscio/API_Based_ChatGPT_Portal/blob/main/Site_Screenshot.png "Screen Shot")
+
 ## Features
 Responsive chat interface that works on desktop and mobile devices
 Option to send a system message to set the context of the conversation
